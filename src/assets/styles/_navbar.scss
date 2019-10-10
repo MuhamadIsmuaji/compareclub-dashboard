@@ -1,0 +1,15 @@
+.navbar {
+  border-bottom: 3px solid $primary;
+}
+
+.navbar-item-logo {
+  border-right: 2px solid #ebebeb;
+}
+
+.user-avatar {
+  color: $primary;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: $primary;
+}
