@@ -1,5 +1,12 @@
 @import '~bulma/bulma';
-$primary: #3bac70;
-$link: $primary;
-
+@import 'variables';
 @import 'navbar';
+@import 'panel';
+
+body {
+  background-color: #f8f8f8;
+}
+
+.main-content-container {
+  padding: 25px 80px 50px;
+}
