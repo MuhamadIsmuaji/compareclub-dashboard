@@ -3,7 +3,7 @@
 }
 
 .navbar-item-logo {
-  border-right: 2px solid #ebebeb;
+  border-right: 1.5px solid #ebebeb;
 }
 
 .user-avatar {
@@ -12,4 +12,30 @@
 
 .navbar-link:not(.is-arrowless)::after {
   border-color: $primary;
+}
+
+.columns.navbar-burger-container {
+  margin-left: auto;
+}
+
+.is-gapless > .column.user-avatar-mobile-column {
+  margin: auto;
+}
+
+.user-avatar-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .user-avatar-mobile {
+    display: initial;
+  }
+
+  .navbar-item-logo {
+    border-right: none;
+  }
+
+  .user-avatar-original {
+    display: none;
+  }
 }
