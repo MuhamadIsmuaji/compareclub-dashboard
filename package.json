@@ -10,6 +10,7 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "core-js": "^2.6.5",
+    "vgauge": "^1.2.6",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
     "webpack": "^4.41.0"

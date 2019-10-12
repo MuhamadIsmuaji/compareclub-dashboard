@@ -1,6 +1,6 @@
 .coc-panel-heading {
   background-color: white;
-  border-radius: 2%;
+  border-radius: 1.5px;
   border: none;
   padding: 0.7em 1.25em;
 }
@@ -9,10 +9,23 @@
   border: none;
 }
 
+.coc-panel-heading-divider-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: none;
+}
+
+.coc-panel-heading-divider {
+  background-color: #e5e5e5;
+  height: 1.5px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
 .coc-panel-block {
   background-color: white;
   border: none;
-  border-radius: 2%;
+  border-radius: 1.5px;
   padding: 1.5em 1.25em;
 }
 
@@ -22,4 +35,14 @@
 
 .coc-panel-block-gap {
   margin-top: 2.5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .coc-panel-block-gap {
+    margin-top: 0px;
+  }
+  
+  .coc-panel-heading-divider-container {
+    display: initial;
+  }
 }
