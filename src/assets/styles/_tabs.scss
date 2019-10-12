@@ -1,0 +1,23 @@
+.tabs.coc-tabs ul {
+  border: none;
+}
+
+.tabs.coc-tabs a {
+  border-radius: 0%;
+  color: #a4a4a4;
+  border: none;
+} 
+
+.tabs.coc-tabs li.is-active a {
+  color: $primary;
+  border-color: transparent;
+  border-top: 2.2px solid $primary;
+}
+
+.coc-tab-content {
+  display: initial;
+}
+
+.coc-tab-content-active {
+  display: initial;
+}

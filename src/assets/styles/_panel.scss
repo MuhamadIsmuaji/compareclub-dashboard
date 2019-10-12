@@ -16,6 +16,10 @@
   padding: 1.5em 1.25em;
 }
 
+.coc-panel-block:first-child {
+  border: none;
+}
+
 .coc-panel-block-gap {
   margin-top: 2.5px;
 }
