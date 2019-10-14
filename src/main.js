@@ -18,6 +18,13 @@ Vue.component('MyCredit', MyCredit);
 Vue.component('FuelPrices', FuelPrices);
 Vue.component('MyShoppingList', MyShoppingList);
 
+import Highcharts from 'highcharts'
+import VueHighcharts from 'highcharts-vue'
+import highchartsMore from 'highcharts/highcharts-more'
+
+highchartsMore(Highcharts)
+Vue.use(VueHighcharts, {highcharts: Highcharts})
+
 Vue.config.productionTip = false
 
 new Vue({

@@ -37,6 +37,10 @@
   margin-top: 2.5px;
 }
 
+.panel-block > .columns {
+  width: 104%;
+}
+
 @media only screen and (max-width: 1024px) {
   .coc-panel-block-gap {
     margin-top: 0px;

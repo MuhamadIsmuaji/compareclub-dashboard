@@ -11,11 +11,13 @@
         </ul>
       </div>
       <!-- tab contents -->
-      <div class="columns is-multiline coc-is-gapless">
-        <div class="column is-full coc-tab-column">
+      <div class="columns coc-is-gapless">
+        <div class="column coc-tab-column">
           <MyCredit :tabActive="tabActive" />
         </div>
-        <div class="column is-half-desktop is-full-tablet is-full-mobile coc-tab-column">
+      </div>
+      <div class="columns">
+        <div class="column coc-tab-column">
           <FuelPrices :tabActive="tabActive" />
         </div>
         <div class="column coc-tab-column">
